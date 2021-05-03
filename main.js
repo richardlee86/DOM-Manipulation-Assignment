@@ -10,8 +10,9 @@ const yellowCard = document.getElementById('yellow');
 const greenCard = document.getElementById('green');
 const blackCard = document.getElementById('black');
 
-//2. Change header text
+//2. Change header text and background
 header.textContent = 'New Dom Layout';
+header.classList.add('bg-success');
 
 //3. Access p tags and change text content
 para1.textContent = 'The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure.';
